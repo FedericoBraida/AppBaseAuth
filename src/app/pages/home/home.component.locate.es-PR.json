@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "Inicio"
+  },
+  "buttons": {
+    "signOut": "Cerrar sesión",
+    "esPR" : "Español",
+    "enUS" : "Inglés"
+  }
+}

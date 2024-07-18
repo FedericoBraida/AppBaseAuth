@@ -1,0 +1,47 @@
+<div class="form">
+  <div class="form__container">
+    <h1>{{locate.resources.page.title}}</h1>
+    <form [formGroup]="form">
+      <div>
+        <mat-form-field class="field-email">
+          <mat-label>{{locate.resources.form.fields.email.label}}</mat-label>
+          <input matInput formControlName="email" (input)="inputChange()" />
+          <mat-error *ngIf="isEmailValid as messsage">{{ messsage }}</mat-error>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field>
+          <mat-label>{{locate.resources.form.fields.password.label}}</mat-label>
+          <input
+            matInput
+            [type]="hide ? 'password' : 'text'"
+            formControlName="password"
+            (input)="inputChange()"
+          />
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="hide = !hide"
+            [attr.aria-label]="locate.resources.form.fields.password.ariaLabel"
+            [attr.aria-pressed]="hide"
+          >
+            <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+          </button>
+          <mat-error>{{locate.resources.form.errors.required}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div *ngIf="errorSignIn">
+        <mat-error class="error-sing-in">{{errorSignIn}}</mat-error>
+      </div>
+      <div>
+        <button mat-flat-button color="accent" (click)="signIn()">{{locate.resources.form.buttons.submit}}</button>
+      </div>
+    </form>
+    <hr />
+    <span class="small-text providers">{{locate.resources.form.buttons.haveAnAccount.mainLabel}}</span>
+    <app-button-externals-providers [isLogin]="true" />
+    <span class="small-text log-in-redirect">
+      {{locate.resources.form.buttons.haveAnAccount.label}} <a routerLink="/auth/sign-up">{{locate.resources.form.buttons.haveAnAccount.link}}</a>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+{
+  "page": {
+    "title": "Registro"
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Nombre"
+      },
+      "lastName": {
+        "label": "Apellido"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Contraseña",
+        "ariaLabel": "Ocultar contraseña"
+      },
+      "confirmPassword": {
+        "label": "Confirmar contraseña",
+        "ariaLabel": "Ocultar confirmar contraseña"
+      }
+    },
+    "buttons": {
+      "submit": "Registrarse",
+      "haveAnAccount": {
+        "mainLabel": "¿Tenés Google?",
+        "label": "¿Ya tienes una cuenta?",
+        "link": "Iniciar sesión"
+      }
+    },
+    "errors": {
+      "required": "Este campo es requerido",
+      "notMatchedPassword": "Las contraseñas deben coincidir",
+      "invalidEmail": "Introduzca un correo electrónico válido"
+    }
+  }
+}

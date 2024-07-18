@@ -1,0 +1,30 @@
+{
+  "page": {
+    "title": "Sign in"
+  },
+  "form": {
+    "fields": {
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Password",
+        "ariaLabel": "Hide password"
+      }
+    },
+    "buttons": {
+      "submit": "Sign in",
+      "haveAnAccount": {
+        "mainLabel": "Have Google?",
+        "label": "Don't have an account yet?",
+        "link": "Sign up"
+      }
+    },
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Enter a valid email",
+      "unauthorizedSignIn": "Incorrect email or password. Retry.",
+      "defaultSingIn": "Oops, something went wrong. Please try again."
+    }
+  }
+}
