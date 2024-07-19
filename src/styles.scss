@@ -12,7 +12,7 @@
 // Define the theme object.
 $app-base-auth-theme: mat.define-theme((
   color: (
-    theme-type: light,
+    theme-type: dark,
     primary: mat.$azure-palette,
     tertiary: mat.$blue-palette,
   ),
@@ -26,6 +26,10 @@ $app-base-auth-theme: mat.define-theme((
 // that you are using.
 :root {
   @include mat.all-component-themes($app-base-auth-theme);
+  --background: #0d1117;
+  --green: #45d8b4;
+  --dark-text: rgba(12, 42, 42);
+  --text: #fff;
 }
 
 // Comment out the line below if you want to use the pre-defined typography utility classes.
@@ -37,4 +41,11 @@ $app-base-auth-theme: mat.define-theme((
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--background);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

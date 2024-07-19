@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "providers": {
+      "google": "with Google"
+    },
+    "actions": {
+      "signIn": "Sign in",
+      "signUp": "Sign up"
+    }
+  }
+}

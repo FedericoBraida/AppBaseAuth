@@ -1,0 +1,39 @@
+{
+  "page": {
+    "title": "Sign up"
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Name"
+      },
+      "lastName": {
+        "label": "Last name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Password",
+        "ariaLabel": "Hide password"
+      },
+      "confirmPassword": {
+        "label": "Confirm password",
+        "ariaLabel": "Hide confirm password"
+      }
+    },
+    "buttons": {
+      "submit": "Sign up",
+      "haveAnAccount": {
+        "mainLabel": "Have Google?",
+        "label": "Already have an account?",
+        "link": "Sign in"
+      }
+    },
+    "errors": {
+      "required": "This field is required",
+      "notMatchedPassword": "Passwords must match",
+      "invalidEmail": "Enter a valid email"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "page": {
+    "title": "Home",
+    "esPR" : "Spanish",
+    "enUS" : "English"
+  },
+  "buttons": {
+    "signOut": "Sign out",
+    "esPR" : "Spanish",
+    "enUS" : "English"
+  }
+}

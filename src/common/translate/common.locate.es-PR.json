@@ -1,0 +1,12 @@
+{
+    "common": {
+        "actions": {
+            "cancel": "Cancelar",
+            "acept": "Aceptar",
+            "save": "Guardar",
+            "delete": "Eliminar",
+            "edit": "Editar",
+            "create": "Crear"
+        }
+    }
+}

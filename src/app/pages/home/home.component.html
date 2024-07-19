@@ -1,1 +1,8 @@
-<p>home works!</p>
+<mat-toolbar color="accent">
+  <span>{{locate.resources.page.title}}</span>
+  <div>
+    <button mat-flat-button (click)="onLanguageSelected('es-PR')">{{locate.resources.buttons.esPR}}</button>
+    <button button mat-flat-button (click)="onLanguageSelected('en-US')">{{locate.resources.buttons.enUS}}</button>
+    <button mat-flat-button (click)="logOut()">{{locate.resources.buttons.signOut}}</button>
+  </div>
+</mat-toolbar>

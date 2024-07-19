@@ -1,0 +1,30 @@
+{
+  "page": {
+    "title": "Iniciar sesión"
+  },
+  "form": {
+    "fields": {
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Contraseña",
+        "ariaLabel": "Ocultar contraseña"
+      }
+    },
+    "buttons": {
+      "submit": "Iniciar sesión",
+      "haveAnAccount": {
+        "mainLabel": "¿Tenés Google?",
+        "label": "¿Aún no tienes una cuenta?",
+        "link": "Registrarse"
+      }
+    },
+    "errors": {
+      "required": "Este campo es requerido",
+      "invalidEmail": "Introduzca un correo electrónico válido",
+      "unauthorizedSignIn": "Correo electrónico o contraseña incorrectos. Vuelve a intentarlo.",
+      "defaultSingIn": "Ups, algo salió mal. Por favor, inténtalo de nuevo."
+    }
+  }
+}
